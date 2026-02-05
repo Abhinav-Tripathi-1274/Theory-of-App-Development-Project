@@ -1,0 +1,60 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Added by me (Abhinav Tripathi)
+# Gradle
+.gradle/
+build/
+
+# Android build
+**/build/
+**/release/
+
+# Local config
+local.properties
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java compile output
+out/
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+
+# Android Studio captures
+captures/
+
+# Firebase / Google Services (if you don’t want secrets in repo)
+google-services.json
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+
+# Linux trash
+*~
+
