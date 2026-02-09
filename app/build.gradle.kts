@@ -41,6 +41,11 @@ android {
 
 dependencies {
 
+    // Added by me (Abhinav Tripathi)
+    // The alias name: androidx-navigation-compose becomes: libs.androidx.navigation.compose
+    implementation(libs.androidx.navigation.compose)
+    // (end)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
